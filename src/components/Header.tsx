@@ -2,11 +2,11 @@ const Header = () => {
   return (
     <header>
       <div className="container">
-        <div>
+        <div className="font-bold text-xl">
           <a href="#home">Nyunt Sein</a>
         </div>
         <div className="menu">
-          <ul className="list">
+          <ul className="flex space-x-8">
             <li>
               <a href="#home">Home</a>
             </li>

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "React";
+import { useState, useEffect } from "react";
 import "./Header.css";
 
 const Header = () => {
@@ -10,8 +10,8 @@ const Header = () => {
 
   return (
     <>
-      <header className="st-header flex flex-row justify-between items-center bg-white/80 backdrop-blur-md border-b py-4 px-2">
-        <div className="font-bold text-xl">
+      <header className="st-header">
+        <div className="head-name">
           <a href="#home">Nyunt Sein</a>
         </div>
         <nav className="st-menu">
@@ -34,7 +34,7 @@ const Header = () => {
               </li>
             </ul>
           ) : (
-            <button className="st-menu-icon">
+            <button className="st-menu-icon" onChange={toggleMenu}>
               {" "}
               <i className="fa-regular fa-bars"></i>{" "}
             </button>

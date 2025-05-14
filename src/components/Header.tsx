@@ -16,7 +16,7 @@ const Header = () => {
         </div>
         <nav className="st-menu">
           {expanded ? (
-            <ul className="st-main-menu flex space-x-8">
+            <ul className="st-main-menu">
               <li>
                 <a href="#home">Home</a>
               </li>
@@ -34,7 +34,7 @@ const Header = () => {
               </li>
             </ul>
           ) : (
-            <button className="st-menu-icon" onChange={toggleMenu}>
+            <button className="st-menu-icon" onClick={toggleMenu}>
               {" "}
               <i className="fa-regular fa-bars"></i>{" "}
             </button>

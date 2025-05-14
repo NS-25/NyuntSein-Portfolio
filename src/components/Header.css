@@ -13,9 +13,10 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border-bottom: solid 2px;
+  border-bottom: 1px solid whitesmoke;
   background-color: whitesmoke;
-  padding: 10px;
+  min-height: 70px;
+
 }
 
 .head-name a {
@@ -24,6 +25,7 @@ body {
   font-size: larger;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: black;
+  padding: 20px;
 }
 
 
@@ -33,7 +35,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   list-style: none;
-
+  padding: 10px;
 }
 
 .st-main-menu a {
@@ -48,4 +50,7 @@ body {
 
 .st-menu-icon {
   border: none;
+  font-size: larger;
+  padding: 20px;
+  background-color: whitesmoke;
 }
